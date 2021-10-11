@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Asylum Seeker Intake in OECD Countries",
+  "data": {
+    "url": "data/foreign_inflows.csv"
+  },
+  "transform": [
+    {
+      "lookup": "Country",
+      "from": {
+        "data": {
+          "url": "data/oecd_population.csv"
+        },
+        "key": "Country",
+        "fields": ["Value"]
+      },
+      "as": ["Population"]
+    },
+    {
+      "calculate": "datum.Value/datum.Population * 10000",
+      "as": "Intake Proportion of Population per 10000"
+    }
+  ],
+  "facet": {"row": {"field": "Country"}},
+  "spec": {
+    "height": 60,
+    "width": 600,
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal"
+      },
+      "y": {
+        "field": "Intake Proportion of Population per 10000",
+        "type": "quantitative",
+        "scale": {
+          "type": "log",
+          "domain": [0.1, 100]
+        },
+        "axis": {
+          "title": null,
+          "values": [0.1, 1, 10, 100]
+        }
+      }
+    }
+  }
+}

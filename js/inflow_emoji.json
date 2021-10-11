@@ -1,0 +1,107 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Asylum Seeker Intake in OECD Countries",
+    "data": {
+        "url": "data/foreign_inflows.csv"
+    },
+    "width": 1000,
+    "height": 700,
+    "transform": [
+        {
+            "lookup": "Country",
+            "from": {
+                "data": {
+                    "url": "data/country_regions.csv"
+                },
+                "key": "country",
+                "fields": [
+                    "emoji"
+                ]
+            },
+            "as": "emoji"
+        },
+        {
+            "filter": "datum.Year == year_to_graph"
+        },
+        {
+            "lookup": "Country",
+            "from": {
+                "data": {
+                    "url": "data/oecd_population.csv"
+                },
+                "key": "Country",
+                "fields": [
+                    "Population"
+                ]
+            }
+        }
+    ],
+    "params": [
+        {
+            "name": "year_to_graph",
+            "value": 2005,
+            "bind": {
+                "input": "range",
+                "min": 2005,
+                "max": 2019,
+                "step": 1,
+                "name": "Year"
+            }
+        }
+    ],
+    "mark": {
+        "type": "text",
+        "size": 50,
+        "opacity"
+    },
+    "encoding": {
+        "x": {
+            "field": "Population",
+            "title": "Nation Population",
+            "type": "quantitative",
+            "scale": {
+                "type": "log",
+                "domain": [
+                    100000,
+                    1000000000
+                ]
+            },
+            "axis": {
+                "values": [
+                    100000,
+                    1000000,
+                    10000000,
+                    100000000,
+                    1000000000
+                ]
+            }
+        },
+        "y": {
+            "field": "Inflow",
+            "title": "Asylum Seeker Intake",
+            "type": "quantitative",
+            "scale": {
+                "type": "log",
+                "domain": [
+                    1,
+                    1000000
+                ]
+            },
+            "axis": {
+                "values": [
+                    1,
+                    10,
+                    100,
+                    1000,
+                    10000,
+                    100000,
+                    1000000
+                ]
+            }
+        },
+        "text": {
+            "field": "emoji",
+            "type": "nominal"
+        }
+    }
+}
