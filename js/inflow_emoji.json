@@ -4,8 +4,8 @@
     "data": {
         "url": "data/foreign_inflows.csv"
     },
-    "width": 1000,
-    "height": 700,
+    "width": 800,
+    "height": 500,
     "transform": [
         {
             "lookup": "Country",
@@ -51,8 +51,7 @@
     ],
     "mark": {
         "type": "text",
-        "size": 50,
-        "opacity"
+        "size": 50
     },
     "encoding": {
         "x": {

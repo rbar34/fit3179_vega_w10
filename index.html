@@ -10,12 +10,22 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
     </head>
     <body>
-        <div id="rule_map"></div>
-        <script type="text/javascript">
-            var graph = "js/inflow_emoji.json";
-            vegaEmbed('#rule_map', graph).then(function(result) {
-                
-            }).catch(console.error);
-        </script>
+        <div class="parent">
+                    <div id="scatter_plot" class="child inline-child"></div>
+                    <script type="text/javascript">
+                        var graph = "js/inflow_emoji.json";
+                        vegaEmbed('#scatter_plot', graph).then(function (result) {
+
+                        }).catch(console.error);
+                    </script>
+                    <div id="rule_map" class="child inline-child"></div>
+                    <script type="text/javascript">
+                        var graph = "js/immigration_rules.vl.json";
+                        vegaEmbed('#rule_map', graph).then(function (result) {
+
+                        }).catch(console.error);
+                    </script>
+
+        </div>
     </body>
 </html>
