@@ -1,0 +1,61 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 500,
+    "title": "Foreign Born Population per State and Territory in Australia",
+    "projection": {
+        "type": "equirectangular",
+        "center": [
+            133,
+            -26
+        ],
+        "scale": 700
+    },
+    "transform": [
+        {
+            "lookup": "properties.name_en",
+            "from": {
+                "data": {
+                    "url": "data/REGION_MIGRANTS_20102021052853305.csv"
+                },
+                "key": "Region",
+                "fields": [
+                    "Value"
+                ]
+            },
+            "as": "foreign_proportion"
+        }
+    ],
+    "data": {
+        "url": "data/ne_50m_admin_1_states_provinces.json",
+        "format": {
+            "type": "topojson",
+            "feature": "ne_50m_admin_1_states_provinces"
+        }
+    },
+    "mark": {
+        "type": "geoshape"
+    },
+    "encoding": {
+        "color": {
+            "field": "foreign_proportion",
+            "type": "quantitative",
+            "legend": null,
+            "scale": {
+                "domain": [0, 50]
+            }
+        },
+        "tooltip": [
+            {
+                "field": "properties.gn_name",
+                "type": "nominal",
+                "title": "Region"
+            },
+            {
+                "field": "foreign_proportion",
+                "type": "quantitative",
+                "title": "Foreign-Born Proportion %"
+            }
+        ]
+    }
+}

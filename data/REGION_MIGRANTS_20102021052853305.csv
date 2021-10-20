@@ -1,0 +1,324 @@
+﻿REG_ID,Region,Indicator,Value
+DE5,Bremen ,Share of Foreign-Born Population,20.7
+DE6,Hamburg,Share of Foreign-Born Population,19.6
+DE7,Hesse,Share of Foreign-Born Population,19.8
+DE8,Mecklenburg-Vorpommern,Share of Foreign-Born Population,8.4
+DE9,Lower Saxony ,Share of Foreign-Born Population,14
+DEA,North Rhine-Westphalia,Share of Foreign-Born Population,16.7
+ME31,Yucatan,Share of Foreign-Born Population,0.3
+ME32,Zacatecas,Share of Foreign-Born Population,0.5
+AUS,Australia,Share of Foreign-Born Population,31.1
+AU1,New South Wales,Share of Foreign-Born Population,32.9
+AU2,Victoria,Share of Foreign-Born Population,32.8
+AU3,Queensland,Share of Foreign-Born Population,25.5
+AU4,South Australia,Share of Foreign-Born Population,26.3
+AU5,Western Australia,Share of Foreign-Born Population,39.3
+AU6,Tasmania,Share of Foreign-Born Population,12.5
+AU7,Northern Territory,Share of Foreign-Born Population,28.6
+AU8,Australian Capital Territory,Share of Foreign-Born Population,29.9
+AUT,Austria,Share of Foreign-Born Population,16.5
+AT11,Burgenland,Share of Foreign-Born Population,20.9
+AT12,Lower Austria,Share of Foreign-Born Population,20.9
+AT13,Vienna,Share of Foreign-Born Population,20.9
+AT21,Carinthia,Share of Foreign-Born Population,10.1
+AT22,Styria,Share of Foreign-Born Population,10.1
+AT31,Upper Austria,Share of Foreign-Born Population,14.9
+AT32,Salzburg,Share of Foreign-Born Population,14.9
+AT33,Tyrol,Share of Foreign-Born Population,14.9
+AT34,Vorarlberg,Share of Foreign-Born Population,14.9
+BEL,Belgium,Share of Foreign-Born Population,14.5
+BE1,Brussels Capital Region,Share of Foreign-Born Population,43
+BE2,Flemish Region,Share of Foreign-Born Population,9.9
+BE3,Wallonia,Share of Foreign-Born Population,13.4
+DEB,Rhineland-Palatinate,Share of Foreign-Born Population,14.2
+DEC,Saarland,Share of Foreign-Born Population,12.2
+DED,Saxony,Share of Foreign-Born Population,6.3
+DEE,Saxony-Anhalt,Share of Foreign-Born Population,6.4
+DEF,Schleswig-Holstein,Share of Foreign-Born Population,11.3
+DEG,Thuringia,Share of Foreign-Born Population,5.9
+GRC,Greece,Share of Foreign-Born Population,6.4
+NOR,Norway,Share of Foreign-Born Population,13.4
+NO01,Oslo and Akershus,Share of Foreign-Born Population,20.9
+NO02,Hedmark and Oppland,Share of Foreign-Born Population,8
+NO03,South-Eastern Norway,Share of Foreign-Born Population,12.6
+NO04,Agder and Rogaland,Share of Foreign-Born Population,12.8
+NO05,Western Norway,Share of Foreign-Born Population,11.4
+NO06,Trøndelag,Share of Foreign-Born Population,8.7
+NO07,Northern Norway,Share of Foreign-Born Population,8.6
+POL,Poland,Share of Foreign-Born Population,0.7
+PL11,Lodzkie,Share of Foreign-Born Population,0.4
+PL12,Mazovia,Share of Foreign-Born Population,0.7
+PL21,Lesser Poland ,Share of Foreign-Born Population,0.3
+PL22,Silesia,Share of Foreign-Born Population,0.4
+PL31,Lublin Province ,Share of Foreign-Born Population,0.4
+PL32,Podkarpacia,Share of Foreign-Born Population,0.4
+PL34,Podlasie,Share of Foreign-Born Population,0.5
+PL41,Greater Poland,Share of Foreign-Born Population,0.4
+PL42,West Pomerania,Share of Foreign-Born Population,1.5
+PL43,Lubusz,Share of Foreign-Born Population,1.8
+PL51,Lower Silesia ,Share of Foreign-Born Population,2.1
+PL52,Opole region,Share of Foreign-Born Population,2.4
+PL61,Kuyavian-Pomerania,Share of Foreign-Born Population,0.3
+PL62,Warmian-Masuria,Share of Foreign-Born Population,0.8
+PL63,Pomerania,Share of Foreign-Born Population,0.7
+PRT,Portugal,Share of Foreign-Born Population,6.8
+PT11,North,Share of Foreign-Born Population,4.6
+CAN,Canada,Share of Foreign-Born Population,24.5
+CA12,Nova Scotia,Share of Foreign-Born Population,6.1
+CA13,New Brunswick,Share of Foreign-Born Population,4.3
+CA24,Quebec,Share of Foreign-Born Population,15
+EL30,Attica,Share of Foreign-Born Population,9.1
+EL41,North Aegean,Share of Foreign-Born Population,3.7
+EL42,South Aegean,Share of Foreign-Born Population,8.2
+EL43,Crete,Share of Foreign-Born Population,6.3
+EL51,"Eastern Macedonia, Thrace",Share of Foreign-Born Population,4.5
+EL52,Central Macedonia,Share of Foreign-Born Population,5.7
+EL53,Western Macedonia,Share of Foreign-Born Population,2.6
+EL54,Epirus,Share of Foreign-Born Population,3.9
+EL61,Thessaly,Share of Foreign-Born Population,3.5
+EL62,Ionian Islands,Share of Foreign-Born Population,4
+EL63,Western Greece,Share of Foreign-Born Population,3.1
+EL64,Central Greece,Share of Foreign-Born Population,4.7
+EL65,Peloponnese,Share of Foreign-Born Population,6.6
+HUN,Hungary,Share of Foreign-Born Population,1.8
+HU10,Central Hungary,Share of Foreign-Born Population,2.8
+HU21,Central Transdanubia,Share of Foreign-Born Population,1.5
+HU22,Western Transdanubia,Share of Foreign-Born Population,1
+HU23,Southern Transdanubia,Share of Foreign-Born Population,2.1
+HU31,Northern Hungary,Share of Foreign-Born Population,0.8
+HU32,Northern Great Plain,Share of Foreign-Born Population,1.4
+HU33,Southern Great Plain,Share of Foreign-Born Population,1.5
+IRL,Ireland,Share of Foreign-Born Population,16.7
+IE01,"Border, Midland and Western",Share of Foreign-Born Population,15.6
+IE02,Southern and Eastern,Share of Foreign-Born Population,17.1
+ITA,Italy,Share of Foreign-Born Population,9.4
+ITC1,Piedmont,Share of Foreign-Born Population,10.5
+ITC2,Aosta Valley,Share of Foreign-Born Population,9.1
+PT15,Algarve,Share of Foreign-Born Population,12
+PT16,Central Portugal,Share of Foreign-Born Population,5.9
+PT17,Metropolitan area of Lisbon,Share of Foreign-Born Population,10.8
+PT18,Alentejo,Share of Foreign-Born Population,4
+PT20,Azores,Share of Foreign-Born Population,3.1
+PT30,Madeira,Share of Foreign-Born Population,6.2
+SVK,Slovak Republic,Share of Foreign-Born Population,0.8
+SK01,Bratislava Region,Share of Foreign-Born Population,1.9
+SK02,West Slovakia,Share of Foreign-Born Population,0.7
+SK03,Central Slovakia,Share of Foreign-Born Population,0.6
+SK04,East Slovakia,Share of Foreign-Born Population,0.6
+SVN,Slovenia,Share of Foreign-Born Population,8.8
+SI03,Eastern Slovenia,Share of Foreign-Born Population,6.9
+SI04,Western Slovenia,Share of Foreign-Born Population,11
+ESP,Spain,Share of Foreign-Born Population,11.6
+ES11,Galicia,Share of Foreign-Born Population,6.8
+ES12,Asturias,Share of Foreign-Born Population,5.8
+ES13,Cantabria,Share of Foreign-Born Population,7.1
+ES21,Basque Country,Share of Foreign-Born Population,6.6
+ES22,Navarra,Share of Foreign-Born Population,10.5
+ES23,La Rioja,Share of Foreign-Born Population,12.8
+ES24,Aragon,Share of Foreign-Born Population,12.6
+ES30,Madrid,Share of Foreign-Born Population,14.4
+ES41,Castile and León,Share of Foreign-Born Population,7.2
+ES42,Castile-La Mancha,Share of Foreign-Born Population,9.7
+ES43,Extremadura,Share of Foreign-Born Population,3.8
+ES51,Catalonia,Share of Foreign-Born Population,14.1
+CA35,Ontario,Share of Foreign-Born Population,33.4
+CA46,Manitoba,Share of Foreign-Born Population,20.5
+ITC3,Liguria,Share of Foreign-Born Population,10.1
+ITC4,Lombardy,Share of Foreign-Born Population,11.6
+ITF1,Abruzzo,Share of Foreign-Born Population,10.1
+ITF2,Molise,Share of Foreign-Born Population,6.3
+ITF3,Campania,Share of Foreign-Born Population,4.8
+ITF4,Apulia,Share of Foreign-Born Population,4.5
+ITF5,Basilicata ,Share of Foreign-Born Population,4.9
+ITF6,Calabria,Share of Foreign-Born Population,6.8
+ITG1,Sicily,Share of Foreign-Born Population,5.1
+ITG2,Sardinia,Share of Foreign-Born Population,3.8
+ITH1,Province of Bolzano-Bozen,Share of Foreign-Born Population,10.9
+ITH2,Province of Trento,Share of Foreign-Born Population,11.1
+ITH3,Veneto,Share of Foreign-Born Population,11.7
+ITH4,Friuli-Venezia Giulia,Share of Foreign-Born Population,13.3
+ITH5,Emilia-Romagna,Share of Foreign-Born Population,12.5
+ITI1,Tuscany,Share of Foreign-Born Population,11.8
+ITI2,Umbria,Share of Foreign-Born Population,12
+ITI3,Marche,Share of Foreign-Born Population,10.7
+ITI4,Lazio,Share of Foreign-Born Population,11.4
+ES52,Valencia,Share of Foreign-Born Population,14.7
+ES53,Balearic Islands,Share of Foreign-Born Population,21.6
+ES61,Andalusia,Share of Foreign-Born Population,8.9
+ES62,Murcia,Share of Foreign-Born Population,14.4
+ES70,Canary Islands,Share of Foreign-Born Population,16.2
+SWE,Sweden,Share of Foreign-Born Population,19.1
+SE11,Stockholm,Share of Foreign-Born Population,26
+SE12,East Middle Sweden,Share of Foreign-Born Population,18
+SE21,Småland with Islands,Share of Foreign-Born Population,15.9
+SE22,South Sweden,Share of Foreign-Born Population,21.8
+SE23,West Sweden,Share of Foreign-Born Population,18.4
+SE31,North Middle Sweden,Share of Foreign-Born Population,12.2
+SE32,Central Norrland,Share of Foreign-Born Population,10
+SE33,Upper Norrland,Share of Foreign-Born Population,10.4
+CHE,Switzerland,Share of Foreign-Born Population,29.7
+CH01,Lake Geneva Region,Share of Foreign-Born Population,39.5
+CH02,Espace Mittelland,Share of Foreign-Born Population,22
+CH03,Northwestern Switzerland ,Share of Foreign-Born Population,30
+CH04,Zürich,Share of Foreign-Born Population,34.1
+CH05,Eastern Switzerland,Share of Foreign-Born Population,25.6
+CH06,Central Switzerland,Share of Foreign-Born Population,22.1
+CH07,Ticino,Share of Foreign-Born Population,38.8
+CA47,Saskatchewan,Share of Foreign-Born Population,11.3
+CA48,Alberta,Share of Foreign-Born Population,23
+CA59,British Columbia,Share of Foreign-Born Population,31.2
+LVA,Latvia,Share of Foreign-Born Population,12.8
+LV00,Latvia,Share of Foreign-Born Population,12.8
+LUX,Luxembourg,Share of Foreign-Born Population,44.7
+LU00,Luxembourg,Share of Foreign-Born Population,44.7
+MEX,Mexico,Share of Foreign-Born Population,0.5
+ME01,Aguascalientes,Share of Foreign-Born Population,0.4
+ME02,Baja California Norte,Share of Foreign-Born Population,2.5
+ME03,Baja California Sur,Share of Foreign-Born Population,0.9
+ME04,Campeche,Share of Foreign-Born Population,0.3
+ME05,Coahuila,Share of Foreign-Born Population,0.3
+ME06,Colima,Share of Foreign-Born Population,0.8
+ME07,Chiapas,Share of Foreign-Born Population,1.1
+ME08,Chihuahua,Share of Foreign-Born Population,1.2
+GBR,United Kingdom,Share of Foreign-Born Population,13.5
+UKC,North East England,Share of Foreign-Born Population,5.4
+UKD,North West England,Share of Foreign-Born Population,9.4
+UKE,Yorkshire and The Humber,Share of Foreign-Born Population,9.4
+UKF,East Midlands,Share of Foreign-Born Population,10.8
+UKG,West Midlands,Share of Foreign-Born Population,12.1
+CZE,Czech Republic,Share of Foreign-Born Population,3
+CZ01,Prague,Share of Foreign-Born Population,5.8
+CZ02,Central Bohemian Region,Share of Foreign-Born Population,2.7
+CZ03,Southwest,Share of Foreign-Born Population,2.3
+CZ04,Northwest,Share of Foreign-Born Population,3.9
+CZ05,Northeast,Share of Foreign-Born Population,2.7
+CZ06,Southeast,Share of Foreign-Born Population,1.9
+CZ07,Central Moravia,Share of Foreign-Born Population,1.8
+CZ08,Moravia-Silesia,Share of Foreign-Born Population,3.3
+DNK,Denmark,Share of Foreign-Born Population,10.2
+DK01,Capital,Share of Foreign-Born Population,14.5
+DK02,Zealand,Share of Foreign-Born Population,7.4
+DK03,Southern Denmark,Share of Foreign-Born Population,9
+DK04,Central Jutland,Share of Foreign-Born Population,8.7
+DK05,Northern Jutland,Share of Foreign-Born Population,7.3
+EST,Estonia,Share of Foreign-Born Population,13
+EE00,Estonia,Share of Foreign-Born Population,13
+FIN,Finland,Share of Foreign-Born Population,4.3
+FI19,Western Finland,Share of Foreign-Born Population,3.1
+FI1B,Helsinki-Uusimaa,Share of Foreign-Born Population,7.4
+FI1C,Southern Finland,Share of Foreign-Born Population,3.8
+FI1D,Eastern and Northern Finland,Share of Foreign-Born Population,2.1
+FI20,Åland,Share of Foreign-Born Population,12.6
+FRA,France,Share of Foreign-Born Population,11.4
+FR10,Île-de-France,Share of Foreign-Born Population,20.9
+FR21,Champagne-Ardenne,Share of Foreign-Born Population,6.8
+ME09,Federal District,Share of Foreign-Born Population,0.8
+ME10,Durango,Share of Foreign-Born Population,0.3
+ME11,Guanajuato,Share of Foreign-Born Population,0.3
+ME12,Guerrero,Share of Foreign-Born Population,0.1
+ME13,Hidalgo,Share of Foreign-Born Population,0.1
+ME14,Jalisco,Share of Foreign-Born Population,0.4
+ME15,Mexico,Share of Foreign-Born Population,0.2
+ME16,Michoacan,Share of Foreign-Born Population,0.3
+UKH,East of England,Share of Foreign-Born Population,11.9
+UKI,Greater London,Share of Foreign-Born Population,37.4
+UKJ,South East England,Share of Foreign-Born Population,12.7
+UKK,South West England,Share of Foreign-Born Population,8.3
+UKL,Wales,Share of Foreign-Born Population,6.2
+UKM,Scotland,Share of Foreign-Born Population,7.4
+FR22,Picardy,Share of Foreign-Born Population,7.1
+FR23,Upper Normandy,Share of Foreign-Born Population,6.9
+FR24,Centre-Val de Loire,Share of Foreign-Born Population,8.1
+FR25,Lower Normandy ,Share of Foreign-Born Population,3.3
+FR26,Burgundy,Share of Foreign-Born Population,7.8
+FR30,Nord-Pas-de-Calais,Share of Foreign-Born Population,5.2
+FR41,Lorraine,Share of Foreign-Born Population,10.6
+FR42,Alsace ,Share of Foreign-Born Population,13
+FR43,Franche-Comté,Share of Foreign-Born Population,8
+FR51,Pays de la Loire,Share of Foreign-Born Population,4.3
+FR52,Brittany,Share of Foreign-Born Population,4.1
+FR53,Poitou-Charentes,Share of Foreign-Born Population,5.8
+FR61,Aquitaine,Share of Foreign-Born Population,11.3
+FR62,Midi-Pyrénées,Share of Foreign-Born Population,11
+FR63,Limousin,Share of Foreign-Born Population,7.4
+FR71,Rhône-Alpes,Share of Foreign-Born Population,11.9
+FR72,Auvergne,Share of Foreign-Born Population,5.8
+FR81,Languedoc-Roussillon ,Share of Foreign-Born Population,13.5
+FR82,Provence-Alpes-Côte d'Azur,Share of Foreign-Born Population,18
+FR83,Corsica,Share of Foreign-Born Population,9.6
+DEU,Germany,Share of Foreign-Born Population,16.3
+DE1,Baden-Württemberg ,Share of Foreign-Born Population,19.1
+ME17,Morelos,Share of Foreign-Born Population,0.3
+ME18,Nayarit,Share of Foreign-Born Population,0.6
+ME19,Nuevo Leon,Share of Foreign-Born Population,0.3
+ME20,Oaxaca,Share of Foreign-Born Population,0.1
+UKN,Northern Ireland,Share of Foreign-Born Population,7.4
+USA,United States,Share of Foreign-Born Population,13.9
+US01,Alabama,Share of Foreign-Born Population,4.2
+US02,Alaska,Share of Foreign-Born Population,8.4
+US04,Arizona,Share of Foreign-Born Population,16.9
+US05,Arkansas,Share of Foreign-Born Population,5.3
+US06,California,Share of Foreign-Born Population,38.9
+US08,Colorado,Share of Foreign-Born Population,12.4
+US09,Connecticut,Share of Foreign-Born Population,16.9
+US10,Delaware,Share of Foreign-Born Population,10.2
+US11,District of Columbia,Share of Foreign-Born Population,18.3
+US12,Florida,Share of Foreign-Born Population,25.9
+US13,Georgia,Share of Foreign-Born Population,11.9
+US15,Hawaii,Share of Foreign-Born Population,24.9
+US16,Idaho,Share of Foreign-Born Population,6.9
+US17,Illinois,Share of Foreign-Born Population,17
+US18,Indiana,Share of Foreign-Born Population,5.5
+US19,Iowa,Share of Foreign-Born Population,5.4
+US20,Kansas,Share of Foreign-Born Population,8.2
+US21,Kentucky,Share of Foreign-Born Population,4
+US22,Louisiana,Share of Foreign-Born Population,4.5
+US23,Maine,Share of Foreign-Born Population,4.5
+US24,Maryland,Share of Foreign-Born Population,17.8
+US25,Massachusetts,Share of Foreign-Born Population,19.3
+US26,Michigan,Share of Foreign-Born Population,7.3
+US27,Minnesota,Share of Foreign-Born Population,8.8
+US28,Mississippi,Share of Foreign-Born Population,2.7
+US29,Missouri,Share of Foreign-Born Population,4.7
+US30,Montana,Share of Foreign-Born Population,2.8
+US31,Nebraska,Share of Foreign-Born Population,7.3
+US32,Nevada,Share of Foreign-Born Population,25.6
+US33,New Hampshire,Share of Foreign-Born Population,6.8
+US34,New Jersey,Share of Foreign-Born Population,28.3
+US35,New Mexico,Share of Foreign-Born Population,12.3
+US36,New York,Share of Foreign-Born Population,30.3
+US37,North Carolina,Share of Foreign-Born Population,9.2
+US38,North Dakota,Share of Foreign-Born Population,3.8
+US39,Ohio,Share of Foreign-Born Population,4.7
+US40,Oklahoma,Share of Foreign-Born Population,6.8
+US41,Oregon,Share of Foreign-Born Population,12
+US42,Pennsylvania,Share of Foreign-Born Population,7.1
+US44,Rhode Island,Share of Foreign-Born Population,16.1
+US45,South Carolina,Share of Foreign-Born Population,5.8
+US46,South Dakota,Share of Foreign-Born Population,3.4
+US47,Tennessee,Share of Foreign-Born Population,5.7
+US48,Texas,Share of Foreign-Born Population,21.1
+US49,Utah,Share of Foreign-Born Population,10.1
+US50,Vermont,Share of Foreign-Born Population,5.4
+US51,Virginia,Share of Foreign-Born Population,14.6
+US53,Washington,Share of Foreign-Born Population,17.4
+US54,West Virginia,Share of Foreign-Born Population,2
+US55,Wisconsin,Share of Foreign-Born Population,5.5
+US56,Wyoming,Share of Foreign-Born Population,3.9
+DE2,Bavaria,Share of Foreign-Born Population,15.7
+DE3,Berlin,Share of Foreign-Born Population,19
+DE4,Brandenburg,Share of Foreign-Born Population,7.4
+ME21,Puebla,Share of Foreign-Born Population,0.2
+ME22,Queretaro,Share of Foreign-Born Population,0.4
+ME23,Quintana Roo,Share of Foreign-Born Population,1.3
+ME24,San Luis Potosi,Share of Foreign-Born Population,0.3
+ME25,Sinaloa,Share of Foreign-Born Population,0.4
+ME26,Sonora,Share of Foreign-Born Population,0.6
+ME27,Tabasco,Share of Foreign-Born Population,0.3
+ME28,Tamaulipas,Share of Foreign-Born Population,0.8
+ME29,Tlaxcala,Share of Foreign-Born Population,0.1
+ME30,Veracruz,Share of Foreign-Born Population,0.1
+NLD,Netherlands,Share of Foreign-Born Population,9.9
+AT1,Eastern Austria,Share of Foreign-Born Population,20.9
+AT2,Southern Austria,Share of Foreign-Born Population,10.1
+AT3,Western Austria,Share of Foreign-Born Population,14.9

@@ -1,31 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Import Vega and Vega-Lite -->
-        <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.1"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.18.2"></script>
 
-        <!-- CSS file -->
-        <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-    </head>
-    <body>
-        <div class="parent">
-                    <div id="scatter_plot" class="child inline-child"></div>
-                    <script type="text/javascript">
-                        var graph = "js/inflow_emoji.json";
-                        vegaEmbed('#scatter_plot', graph).then(function (result) {
+<head>
+    <!-- Import Vega and Vega-Lite -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.18.2"></script>
 
-                        }).catch(console.error);
-                    </script>
-                    <div id="rule_map" class="child inline-child"></div>
-                    <script type="text/javascript">
-                        var graph = "js/immigration_rules.vl.json";
-                        vegaEmbed('#rule_map', graph).then(function (result) {
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+</head>
 
-                        }).catch(console.error);
-                    </script>
+<body>
+    <div class="container">
+        <div id="scatter_plot" class="child inline-child"></div>
+        <script type="text/javascript">
+            var graph = "js/inflow_emoji.json";
+            vegaEmbed('#scatter_plot', graph).then(function (result) {
 
-        </div>
-    </body>
+            }).catch(console.error);
+        </script>
+        <div id="rule_map" class="child inline-child"></div>
+        <script type="text/javascript">
+            var graph = "js/immigration_rules.vl.json";
+            vegaEmbed('#rule_map', graph).then(function (result) {
+
+            }).catch(console.error);
+        </script>
+    </div>
+    <div class="container">
+        <div id="north_america" class="child inline-child"></div>
+        <script>
+            var graph = "js/region_foreign_us.json"
+            vegaEmbed('#north_america', graph).then(function (result) {
+
+            }).catch(console.error);
+        </script>
+        <div id="europe" class="child inline-child"></div>
+        <script>
+            var graph = "js/region_foreign_eu.json"
+            vegaEmbed('#europe', graph).then(function (result) {
+
+            }).catch(console.error);
+        </script>
+        <div id="australia" class="child inline-child"></div>
+        <script>
+            var graph = "js/region_foreign_au.json"
+            vegaEmbed('#australia', graph).then(function (result) {
+
+            }).catch(console.error);
+        </script>
+    </div>
+
+</body>
+
 </html>

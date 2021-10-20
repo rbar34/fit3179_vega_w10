@@ -4,7 +4,7 @@
     "data": {
         "url": "data/foreign_inflows.csv"
     },
-    "width": 800,
+    "width": "container",
     "height": 500,
     "transform": [
         {
