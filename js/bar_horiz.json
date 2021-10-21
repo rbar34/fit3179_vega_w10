@@ -73,6 +73,31 @@
                     "filter": {
                         "param": "select"
                     }
+                },
+                {
+                    "aggregate": [{
+                        "op": "sum",
+                        "field": "Value",
+                        "as": "summed_values"
+                    }],
+                    "groupby": ["Country of birth/nationality"]
+                },
+                {
+                    "window": [
+                        {
+                            "op": "rank",
+                            "as": "rank"
+                        }
+                    ],
+                    "sort": [
+                        {
+                            "field": "summed_values",
+                            "order": "descending"
+                        }
+                    ]
+                },
+                {
+                    "filter": "datum.rank <= 5"
                 }
             ],
             "mark": "bar",
@@ -80,11 +105,14 @@
                 "x": {
                     "field": "Country of birth/nationality",
                     "type": "nominal",
-                    "sort": "-y"
+                    "sort": {
+                        "field": "summed_values",
+                        "op": "sum",
+                        "order": "descending"
+                    }
                 },
                 "y": {
-                    "aggregate": "sum",
-                    "field": "Value",
+                    "field": "summed_values",
                     "type": "quantitative"
                 }
             }
