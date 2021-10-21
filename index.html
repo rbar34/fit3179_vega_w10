@@ -9,53 +9,89 @@
 
     <!-- CSS file -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+    <title>Asylum Seekers and Immigration</title>
 </head>
 
 <body>
+    <h1>Asylum Seekers, Immigrants and Foreign Born Population</h1>
+    <h2>Where do Asylum Seekers Come From and Who Takes their Fair Share?</h2>
+    <p>
+        Asylum seekers are people who leave their home countries, but whose refugee status has not been determined yet.
+        A person can become an asylum seeker by leaving their home country if it is no longer safe for them to live there.
+        Countries can become inhospitable for their citizens for a range of reasons including war, corruption, extreme poverty, persecution or climate crises.
+        The OECD countries represented in the emoji scatterplot below are some of the countries who absorb asylum seeker who are found to be refugees.
+        The scatterplot shows the trend of asylum seeker intake against OECD nation population, revealing that intake is proportional to the population of the destination country.
+        Over time, all countries seem to increase their asylum seeker intake.
+        There are a few outlier countries who accept more than the average number of asylum seekers per population like Luxembourg 🇱🇺 and Norway 🇳🇴.
+    </p>
+    <p>
+        The rule map below shows the countries from which asylum seekers were accepted as refugees into Australia in 2019.
+        By hovering over the countries where the rules originate, we can see the number of refugees who left from there to live in Australia.
+        The slider filters out rules from countries where the number of refugees resettled in Australia is lower than value selected.
+    </p>
     <div class="container">
         <div id="scatter_plot" class="child inline-child"></div>
         <script type="text/javascript">
             var graph = "js/inflow_emoji.json";
-            vegaEmbed('#scatter_plot', graph, {"actions": false}).then(function (result) {
+            vegaEmbed('#scatter_plot', graph, { "actions": false }).then(function (result) {
 
             }).catch(console.error);
         </script>
         <div id="rule_map" class="child inline-child"></div>
         <script type="text/javascript">
             var graph = "js/immigration_rules.vl.json";
-            vegaEmbed('#rule_map', graph, {"actions": false}).then(function (result) {
+            vegaEmbed('#rule_map', graph, { "actions": false }).then(function (result) {
 
             }).catch(console.error);
         </script>
     </div>
+    <h2>What is the Proportion of Foreign Born Citizens in OECD Nations?</h2>
+    <p>
+        Foreign-born citizens are often just economic immigrants and not resettled refugees.
+        The choropleth maps below give an indication of the ethnic diversity of each state, territory, region or country.
+        The scales the three maps are the same so comparisons can be made between them.
+    </p>
+    <p>
+        The United States and Canada have accommodated several waves of immigration.
+        Their most diverse states are California and Ontario.
+    </p>
+    <p>
+        Europe is comprised of several non-OECD nations which is why this graph shows missing data.
+        The most diverse country in Europe is Luxembourg with nearly 45% foreign-born population.
+    </p>
+    <p>
+        Australia is regarded as a multi-cultural country, with most states having a higher foreign-born population than those in North America and Europe.
+        West Australia has the highest proportion of foreign born population here.
+    </p>
     <div class="container">
         <div id="north_america" class="child inline-child"></div>
         <script>
             var graph = "js/region_foreign_us.json"
-            vegaEmbed('#north_america', graph, {"actions": false}).then(function (result) {
+            vegaEmbed('#north_america', graph, { "actions": false }).then(function (result) {
 
             }).catch(console.error);
         </script>
         <div id="europe" class="child inline-child"></div>
         <script>
             var graph = "js/region_foreign_eu.json"
-            vegaEmbed('#europe', graph, {"actions": false}).then(function (result) {
+            vegaEmbed('#europe', graph, { "actions": false }).then(function (result) {
 
             }).catch(console.error);
         </script>
         <div id="australia" class="child inline-child"></div>
         <script>
             var graph = "js/region_foreign_au.json"
-            vegaEmbed('#australia', graph, {"actions": false}).then(function (result) {
+            vegaEmbed('#australia', graph, { "actions": false }).then(function (result) {
 
             }).catch(console.error);
         </script>
     </div>
+    <h2>How Many Asylum Seekers did each OECD Nation Absorb and what was their Nation of Origin?</h2>
     <div class="container">
         <div id="bar_horiz" class="child inline-child"></div>
         <script>
             var graph = "js/bar_horiz.json"
-            vegaEmbed('#bar_horiz', graph, {"actions": false}).then(function (result) {
+            vegaEmbed('#bar_horiz', graph, { "actions": false }).then(function (result) {
 
             }).catch(console.error);
         </script>
