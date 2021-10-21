@@ -38,13 +38,6 @@ p {
     justify-content: center;
 }
 
-.blocktext {
-    margin-right: auto;
-    width: 45em;
-}
-
-
-
 .vega-bind {
     position: absolute;
     left: 0px;
