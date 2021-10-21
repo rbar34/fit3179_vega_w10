@@ -28,18 +28,20 @@
             ],
             "mark": {
                 "type": "bar",
-                "fill": "slateblue",
+                "fill": "steelblue",
                 "stroke": "black",
                 "cursor": "pointer"
             },
             "encoding": {
                 "x": {
                     "aggregate": "sum",
-                    "field": "Value"
+                    "field": "Value",
+                    "title": "Asylum Seeker Intake"
                 },
                 "y": {
                     "field": "Country",
-                    "sort": "-x"
+                    "sort": "-x",
+                    "title": "OECD Destination Country"
                 },
                 "fillOpacity": {
                     "condition": {
@@ -109,11 +111,15 @@
                         "field": "summed_values",
                         "op": "sum",
                         "order": "descending"
+                    },
+                    "axis": {
+                        "labelAngle": 0
                     }
                 },
                 "y": {
                     "field": "summed_values",
-                    "type": "quantitative"
+                    "type": "quantitative",
+                    "title": "Asylum Seeker Intake"
                 }
             }
         }
