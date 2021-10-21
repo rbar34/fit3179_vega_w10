@@ -16,14 +16,14 @@
         <div id="scatter_plot" class="child inline-child"></div>
         <script type="text/javascript">
             var graph = "js/inflow_emoji.json";
-            vegaEmbed('#scatter_plot', graph).then(function (result) {
+            vegaEmbed('#scatter_plot', graph, {"actions": false}).then(function (result) {
 
             }).catch(console.error);
         </script>
         <div id="rule_map" class="child inline-child"></div>
         <script type="text/javascript">
             var graph = "js/immigration_rules.vl.json";
-            vegaEmbed('#rule_map', graph).then(function (result) {
+            vegaEmbed('#rule_map', graph, {"actions": false}).then(function (result) {
 
             }).catch(console.error);
         </script>
@@ -32,21 +32,21 @@
         <div id="north_america" class="child inline-child"></div>
         <script>
             var graph = "js/region_foreign_us.json"
-            vegaEmbed('#north_america', graph).then(function (result) {
+            vegaEmbed('#north_america', graph, {"actions": false}).then(function (result) {
 
             }).catch(console.error);
         </script>
         <div id="europe" class="child inline-child"></div>
         <script>
             var graph = "js/region_foreign_eu.json"
-            vegaEmbed('#europe', graph).then(function (result) {
+            vegaEmbed('#europe', graph, {"actions": false}).then(function (result) {
 
             }).catch(console.error);
         </script>
         <div id="australia" class="child inline-child"></div>
         <script>
             var graph = "js/region_foreign_au.json"
-            vegaEmbed('#australia', graph).then(function (result) {
+            vegaEmbed('#australia', graph, {"actions": false}).then(function (result) {
 
             }).catch(console.error);
         </script>
@@ -55,7 +55,7 @@
         <div id="bar_horiz" class="child inline-child"></div>
         <script>
             var graph = "js/bar_horiz.json"
-            vegaEmbed('#bar_horiz', graph).then(function (result) {
+            vegaEmbed('#bar_horiz', graph, {"actions": false}).then(function (result) {
 
             }).catch(console.error);
         </script>

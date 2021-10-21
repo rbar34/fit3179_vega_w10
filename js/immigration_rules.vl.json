@@ -25,7 +25,7 @@
       },
       "transform": [
         {
-          "lookup": "properties.NAME",
+          "lookup": "properties.BRK_NAME",
           "from": {
             "data": {
               "url": "data/MIG_03102021053257916.csv"
