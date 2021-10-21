@@ -1,0 +1,93 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Asylum Seeker Intake in OECD Countries by Origin Nation",
+    "data": {
+        "url": "data/asylum_origin_temporal.csv"
+    },
+    "hconcat": [
+        {
+            "width": "container",
+            "height": 500,
+            "params": [
+                {
+                    "name": "highlight",
+                    "select": {
+                        "type": "point",
+                        "on": "mouseover"
+                    }
+                },
+                {
+                    "name": "select",
+                    "select": {
+                        "type": "point",
+                        "encodings": [
+                            "y"
+                        ]
+                    }
+                }
+            ],
+            "mark": {
+                "type": "bar",
+                "fill": "slateblue",
+                "stroke": "black",
+                "cursor": "pointer"
+            },
+            "encoding": {
+                "x": {
+                    "aggregate": "sum",
+                    "field": "Value"
+                },
+                "y": {
+                    "field": "Country",
+                    "sort": "-x"
+                },
+                "fillOpacity": {
+                    "condition": {
+                        "param": "select",
+                        "value": 1
+                    },
+                    "value": 0.3
+                },
+                "strokeWidth": {
+                    "condition": [
+                        {
+                            "param": "select",
+                            "empty": false,
+                            "value": 2
+                        },
+                        {
+                            "param": "highlight",
+                            "empty": false,
+                            "value": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            }
+        },
+        {
+            "height": 500,
+            "width": "container",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "select"
+                    }
+                }
+            ],
+            "mark": "bar",
+            "encoding": {
+                "x": {
+                    "field": "Country of birth/nationality",
+                    "type": "nominal",
+                    "sort": "-y"
+                },
+                "y": {
+                    "aggregate": "sum",
+                    "field": "Value",
+                    "type": "quantitative"
+                }
+            }
+        }
+    ]
+}

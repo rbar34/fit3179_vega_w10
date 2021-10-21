@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Resettled Asylum Seeker by Country of Origin (2001 - 2019)",
+    "data": {
+        "url": "data/asylum_origin_temporal.csv"
+    },
+    "width": "container",
+    "height": 2000,
+    "mark": "rect",
+    "encoding": {
+        "y": {"field": "Country of birth/nationality", "type": "ordinal"},
+        "x": {"field": "Year", "type": "nominal"},
+        "color": {
+            "aggregate": "sum", 
+            "field": "Value",
+            "scale": {
+                "type": "log",
+                "domain": [1, 1000000]
+            }
+        }
+    },
+    "config": {
+        "axis": {"grid": true, "tickBand": "extent"}
+    }
+}
