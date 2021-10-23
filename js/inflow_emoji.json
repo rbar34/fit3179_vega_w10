@@ -51,7 +51,7 @@
     ],
     "mark": {
         "type": "text",
-        "size": 50
+        "size": 30
     },
     "encoding": {
         "x": {
